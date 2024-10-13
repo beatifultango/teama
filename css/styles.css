@@ -6,15 +6,16 @@
   padding: 0;
 }
 
-.body {
-  max-width: 1280px;
-}
+
 .container {
   width: 1280px;
   text-align: center;
   justify-content: center;
-
   margin: 0 auto;
+}
+
+.first-section{
+  
 }
 .first-div{
   background-color:#576F35;
@@ -24,19 +25,13 @@
   gap:128px;
   padding-left:100px;
   padding-top:238px;
+  background-image: url(/images/healty\ food.jpg);
+  background-repeat: no-repeat;
+  background-position: right;
   
 }
 
-.first-section-list{
-  display: block;
-  justify-content: center;
-  
-  
-  
-
-  
-}
-.first-title .title{
+.first-div .title{
   font-family:"Inter Tight" sans-serif;
   font-weight: 600;
   font-size: 76px;
@@ -49,11 +44,9 @@
   margin-bottom:128px;
   
 }
-.first-title{
-  
-}
 
-.first-title p{
+
+.explain{
   font-family:"Inter Tight" sans-serif;
   font-weight: 500;
   font-size: 16px;
@@ -66,8 +59,6 @@
 .first-image{
   width: 650px;
   height:800px;
-  background-image: linear-gradient(rgba(20, 20, 20, 0.2));
-  
-  
+  background-image: linear-gradient(rgba(20, 20, 20, 0.2)); 
 
 }
